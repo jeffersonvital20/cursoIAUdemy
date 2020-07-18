@@ -12,7 +12,7 @@ classe = base.iloc[:,14].values
 
 from sklearn.preprocessing import LabelEncoder, OneHotEncoder, StandardScaler
 labelenconder_previsores = LabelEncoder()
-    from sklearn.cross_validation import train_test_split
+from sklearn.cross_validation import train_test_split
 
 
 previsores[:,1] = labelenconder_previsores.fit_transform(previsores[:,1])
